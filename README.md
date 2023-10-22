@@ -12,11 +12,12 @@ Davis Thomas Daniel<sup>1,2</sup>, Souvik Mitra<sup>3</sup>, Diddo Diddens<sup>3
 ![toc.png](Scripts/TOC.png)
 
 This repository contains the relavant files and scripts to reproduce the results described in the aforementioned manuscript.
+
 Files and folders :
 
 **PTMA-ML.ipynb** : 
 
-> Contains a jupyter notebook with details of the ML workflow used in the work :  defining molecular descriptor parameters, training, hyperparameter optimisation, cross-validation and predictions. More details on running jupyter notebooks can be found here.
+> Contains a jupyter notebook with details of the ML workflow used in the work (can be viewed directly in the repository):  defining molecular descriptor parameters, training, hyperparameter optimisation, cross-validation and predictions. More details on running jupyter notebooks can be found [here](https://jupyter.org/install).
 
 
 * **Datasets** : 
@@ -39,7 +40,7 @@ Files and folders :
 
 * **Scripts** :
 
-> Contains the scripts to directly predict from xyz files using a trained model.
+> Contains the scripts to directly predict g<sub>iso</sub> from xyz files using a trained model.
 
 ## License
 MIT
