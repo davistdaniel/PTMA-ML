@@ -23,7 +23,7 @@ Files and folders :
 
 * **Datasets** : 
 
-> Contains PTMA polymer structures from TR,TE-1 and TE-2 data sets transformed using a molecular descirptor (SOAP,MBTR or DAD).
+> Contains PTMA polymer structures from TR,TE-1 and TE-2 data sets transformed using a molecular descriptor (SOAP,MBTR or DAD).
 > Structure data sets have 'structure_data' in the title, DFT calculated g values have 'giso_DFT_data' in the title, predicted g values have 'predicted' in the title.
 
 
