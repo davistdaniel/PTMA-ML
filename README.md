@@ -44,5 +44,4 @@ Files and folders :
 > Contains the scripts to directly predict g<sub>iso</sub> from xyz files using a trained model.
 
 ## License
-MIT
-
+MIT (Temporary)
