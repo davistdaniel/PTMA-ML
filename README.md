@@ -14,26 +14,32 @@ Davis Thomas Daniel<sup>1,2</sup>, Souvik Mitra<sup>3</sup>, Diddo Diddens<sup>3
 This repository contains the relavant files and scripts to reproduce the results described in the aforementioned manuscript.
 Files and folders :
 
-PTMA-ML.ipynb : Contains an jupyter notebook with details of the ML workflow used in the work :  defining molecular descriptor parameters, training, hyperparameter optimisation, cross-validation and predictions. More details on running jupyter notebooks can be found here.
+**PTMA-ML.ipynb** : 
+
+> Contains an jupyter notebook with details of the ML workflow used in the work :  defining molecular descriptor parameters, training, hyperparameter optimisation, cross-validation and predictions. More details on running jupyter notebooks can be found here.
 
 
-* Datsets : 
+* **Datsets** : 
 
-Contains PTMA polymer structures from TR,TE-1 and TE-2 data sets transformed using a molecular descirptor (SOAP,MBTR or DAD).
-Structure data sets have 'structure_data' in the title, DFT calculated g values have 'giso_DFT_data' in the title, predicted g values have 'predicted' in the title.
+> Contains PTMA polymer structures from TR,TE-1 and TE-2 data sets transformed using a molecular descirptor (SOAP,MBTR or DAD).
+> Structure data sets have 'structure_data' in the title, DFT calculated g values have 'giso_DFT_data' in the title, predicted g values have 'predicted' in the title.
 
-* XYZ_files:
 
-Contains raw xyz files of whole structure dataset (WSD) and TE-2 data set extracted from different times frame of Molecular dynamics trajectories.
+* **XYZ_files**:
 
-* Models :
-Contains trained models , trained using MBTR, SOAP and DAD feature vectors and Extremely randomised trees (ERT) method.
+> Contains raw xyz files of whole structure dataset (WSD) and TE-2 data set extracted from different times frame of Molecular dynamics trajectories.
 
-* Final_Model :
-Contains the final ERT-MBTR model (see manuscript for details).
+* **Models** :
 
-* Scripts :
-Contains the scripts to directly predict from xyz files using a trained model.
+> Contains trained models , trained using MBTR, SOAP and DAD feature vectors and Extremely randomised trees (ERT) method.
+
+* **Final_Model** :
+
+> Contains the final ERT-MBTR model (see manuscript for details).
+
+* **Scripts** :
+
+> Contains the scripts to directly predict from xyz files using a trained model.
 
 ## License
 MIT
