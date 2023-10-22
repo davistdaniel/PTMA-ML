@@ -18,7 +18,7 @@ Files and folders :
 
 **PTMA-ML.ipynb** : 
 
-> Contains a jupyter notebook with details of the ML workflow used in the work (can be viewed directly in the repository):  defining molecular descriptor parameters, training, hyperparameter optimisation, cross-validation,loading the trained model and predictions. More details on running jupyter notebooks can be found [here](https://jupyter.org/install).
+> Contains a jupyter notebook with details of the ML workflow used in the work (can be viewed directly in the repository):  defining molecular descriptor parameters, training, hyperparameter optimisation, cross-validation, loading the trained model and predictions. More details on running jupyter notebooks can be found [here](https://jupyter.org/install).
 
 
 * **Datasets** : 
