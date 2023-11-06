@@ -18,18 +18,15 @@ Files and folders :
 
 **[PTMA-ML.ipynb](https://jugit.fz-juelich.de/d.daniel/ptma-ml/-/blob/main/PTMA-ML.ipynb)** : 
 
-> Contains a jupyter notebook with details of the ML workflow used in the work (can be viewed directly in the repository):  defining molecular descriptor parameters, training, hyperparameter optimisation, cross-validation, loading the trained model and predictions. More details on running jupyter notebooks can be found [here](https://jupyter.org/install).
-
+> Jupyter notebook detailing the workflow of generating the trained model. The file includes steps to load data sets, transform xyz files using molecular descriptors, optimise hyperparameters , train the model, cross validate using the training data set and evaluate the model.  More details on running jupyter notebooks can be found [here](https://jupyter.org/install).
 
 * **Datasets** : 
 
-> Contains PTMA polymer structures from TR,TE-1 and TE-2 data sets transformed using a molecular descriptor (SOAP,MBTR or DAD).
-> Structure data sets have 'structure_data' in the title, DFT calculated g values have 'giso_DFT_data' in the title, predicted g values have 'predicted' in the title.
-
+>  Contains PTMA polymer structures from TR,TE-1 and TE-2 data sets transformed using a molecular descriptor (SOAP,MBTR or DAD) and corresponding DFT-calculated g values. Structure data sets have 'structure_data' in the title, DFT calculated g values have 'giso_DFT_data' in the title. The files are in .npy (NumPy) format.
 
 * **XYZ_files**:
 
-> Contains raw xyz files of whole structure dataset (WSD) and TE-2 data set extracted from different times frame of Molecular dynamics trajectories.
+> Contains atomic coordinates of PTMA structures in XYZ format. Two subfolders : WSD and TE-2 correspond to structures present in the whole structure data set and TE-2 test data set (see main text in the manuscript for details).
 
 * **Models** :
 
@@ -41,7 +38,4 @@ Files and folders :
 
 * **Scripts** :
 
-> Contains the scripts to directly predict g<sub>iso</sub> from xyz files using a trained model.
-
-## License
-MIT (Temporary)
+> Contains scripts which can be used predict g values from XYZ files of PTMA structures with 6 monomer units and varying radical density. The scripts contain functions which transform the XYZ coordinates into an appropriate feature vector which the trained model uses to predict. The folder also contains additional files needed for the ERT-DAD model in .pkl format.
