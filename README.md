@@ -1,6 +1,6 @@
 # Machine learning isotropic **_g_** values of radical polymers 
 
-Davis Thomas Daniel<sup>1,2</sup>, Souvik Mitra<sup>3</sup>, Diddo Diddens<sup>3,4</sup>, Rüdiger A. Eichel<sup>1,4</sup> and Josef Granwehr<sup>1,2</sup>
+Davis Thomas Daniel<sup>1,2</sup>, Souvik Mitra<sup>3</sup>, Diddo Diddens<sup>3,5</sup>, Rüdiger A. Eichel<sup>1,4</sup> and Josef Granwehr<sup>1,2</sup>
 
 
 1. Institute of Energy and Climate Research (IEK-9), Forschungszentrum Jülich GmbH, Jülich, 52425, Germany
