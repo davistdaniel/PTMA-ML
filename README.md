@@ -14,6 +14,11 @@ Davis Thomas Daniel<sup>1,2</sup>, Souvik Mitra<sup>3</sup>, Diddo Diddens<sup>3
 This repository contains the relevant files and scripts to reproduce the results described in the aforementioned manuscript. 
 The model can be used for predictions of PTMA _g_ values as shown [here](https://jugit.fz-juelich.de/d.daniel/ptma-ml/-/blob/main/PTMA-ML.ipynb).
 
+<details><summary> Electron paramagnetic resonance measurements allow for obtaining experimental g values of radical polymers. Analogous to chemical shifts, g values give insight into the identity and environment of the paramagnetic center. In this work, machine learning based prediction of g values is explored as a viable alternative to density functional theory (DFT) methods. </summary>
+
+</details>
+
+
 Files and folders :
 
 **[PTMA-ML.ipynb](https://jugit.fz-juelich.de/d.daniel/ptma-ml/-/blob/main/PTMA-ML.ipynb)** : 
