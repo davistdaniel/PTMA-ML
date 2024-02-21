@@ -30,7 +30,7 @@ Files and folders :
 
 * **XYZ_files**:
 
-> Contains atomic coordinates of PTMA structures in XYZ format. Two subfolders : WSD and TE-2 correspond to structures present in the whole structure data set and TE-2 test data set (see main text in the manuscript for details).
+> Contains atomic coordinates of PTMA structures in XYZ format. Two subfolders : WSD and TE-2 correspond to structures present in the whole structure data set and TE-2 test data set (see main text in the manuscript for details). Filenames in the folder 'XYZ_files/TE-2/PTMA-X/' are of the type 'chainlength_6ptma_Y'_Y''.xyz' where 'chainlength_6ptma' denotes the length of polymer chain (6 monomers), Y' denotes the proportion of monomers which are radicals (for instance, Y' = 50 means 3 out of 6 monomers are radicals) and Y'' denotes the order of the MD time frame. Actual time frame values of Y'' in ps is given in the manuscript.
 
 * **Models** :
 
