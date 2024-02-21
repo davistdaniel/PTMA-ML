@@ -43,3 +43,17 @@ Files and folders :
 * **Scripts** :
 
 > Contains scripts which can be used predict g values from XYZ files of PTMA structures with 6 monomer units and varying radical density. The scripts contain functions which transform the XYZ coordinates into an appropriate feature vector which the trained model uses to predict. The folder also contains additional files needed for the ERT-DAD model in .pkl format.
+
+
+List of abbreviations :
+
+* PTMA : poly(2,2,6,6-tetramethyl-1-piperidinyloxy-4-yl methacrylate)
+* TR : Training data set
+* TE-1 : Test data set 1
+* TE-2 : Test data set 2
+* ERT : Extremely randomized trees
+* WSD : Whole structure data set
+* SOAP : Smooth overlap of atomic orbitals
+* MBTR : Many-body tensor representation
+* DAD : Distances-Angles-Dihedrals
+
