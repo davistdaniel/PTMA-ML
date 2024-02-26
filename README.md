@@ -19,7 +19,7 @@ This repository contains the relevant files and scripts to reproduce the results
 
 Files and folders :
 
-**[PTMA-ML.ipynb](https://jugit.fz-juelich.de/d.daniel/ptma-ml/-/blob/main/PTMA-ML.ipynb)** : 
+**PTMA-ML.ipynb** : 
 
 > Jupyter notebook detailing the workflow of generating the trained model. The file includes steps to load data sets, transform xyz files using molecular descriptors, optimise hyperparameters , train the model, cross validate using the training data set and evaluate the model.  A PDF version of the same jupyter notebook is also provided.
 
