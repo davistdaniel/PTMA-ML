@@ -2,6 +2,7 @@
 
 Davis Thomas Daniel<sup>1,2</sup>, Souvik Mitra<sup>3</sup>, Diddo Diddens<sup>5</sup>, Rüdiger A. Eichel<sup>1,4</sup> and Josef Granwehr<sup>1,2</sup>
 
+DOI : https://doi.org/10.1021/acs.jctc.3c01252
 
 1. Institute of Energy and Climate Research (IEK-9), Forschungszentrum Jülich GmbH, Jülich, 52425, Germany
 2. Institute of Technical and Macromolecular Chemistry, RWTH Aachen University, Aachen, 52056, Germany
@@ -11,7 +12,7 @@ Davis Thomas Daniel<sup>1,2</sup>, Souvik Mitra<sup>3</sup>, Diddo Diddens<sup>5
 
 ![toc.png](Scripts/TOC.png)
 
-This repository contains the relevant files and scripts to reproduce the results described in manuscript : [Machine learning isotropic **_g_** values of radical polymers](https://doi.org/10.1021/acs.jctc.3c01252). 
+This repository contains the relevant files and scripts to reproduce the results described in the manuscript : [Machine learning isotropic **_g_** values of radical polymers](https://doi.org/10.1021/acs.jctc.3c01252). 
 
 
 `Electron paramagnetic resonance measurements allow for obtaining experimental g values of radical polymers. Analogous to chemical shifts, g values give insight into the identity and environment of the paramagnetic center. In this work, machine learning based prediction of g values is explored as a viable alternative to density functional theory (DFT) methods. `
